@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: 'Salsa', cursive;
+    
+  }
+  
+  .sign-up-container {
+    height: 100vh;
+    /* width: 100%; */
+    background: linear-gradient(180deg, #f875aa, #f875aa);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sign-up {
+    display: flex;
+    /* flex-direction: column; */
+    /* gap: 2vw; */
+    height: 90vh;
+    width: 60vw;
+    border-radius: 20px;
+    /* border: 3px solid pink; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .sign-up-head {
+    height: 15vh ;
+    width: 24vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .sign-up-head h1 {
+    margin: 50px 0px 7px 0px;
+    font-size: 2vw;
+  }
+  
+  .sign-up-head p {
+    margin: 3px 0px 21px 0px;
+    font-size: 0.9vw;
+  }
+  .left-side {
+    height: 90vh ;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 0px 0px 20px;
+    flex: 50%;
+    align-items: center;
+    background: white;
+  }
+  
+  .sign-up-middle {
+    height: 25vh ;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1vw;
+    margin: 20px 0px 0px 0px;
+    gap: 7px;
+    width: 22vw;
+  }
+  /* #Email #Password #Confirm_Password */
+  
+  .sign-up-middle input {
+    border: 1.5px solid #b2c8ba;
+    border-radius: 8px;
+    padding: 9px;
+  }
+  .sign-up-lower {
+    height: 10vh ;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    width: 22vw;
+    margin-top: 30px;
+  }
+  .sign-up-lower p {
+    margin: 20px 0px 0px 5px;
+    font-size: 1vw;
+    font-weight: 200;
+  }
+  
+  .sign-up-btn {
+    width: 22vw;
+    padding: 6px;
+    margin-top: 1rem;
+    border-radius: 7px;
+    border-color: #00a9ff;
+    font-size: 1.5vw;
+    color: white;
+    background: #00a9ff;
+    transition-duration: 5ms;
+  }
+  .sign-up-btn:hover {
+    transform: translateY(-2px);
+  }
+  .connect {
+    height: 10vh ;
+    width: 7vw;
+    margin: 10px 0px 0px 0px;
+    font-size: 1vw;
+  }
+  .options {
+    height: 10vh ;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .options h4 {
+    font-size: 1vw;
+    font-weight: 100;
+  }
+  .options img {
+    height: 2vh;
+    width: 1vw;
+  }
+  
+  .right-side {
+    height: 90vh ;
+    width: 20vw;
+    display: flex;
+    flex: 50%;
+    background: pink;
+    border-radius: 0px 20px 20px 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .right-side img {
+    border-radius: 20px;
+    height: 50%;
+    width: 50%;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  

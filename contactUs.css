@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+}
+.contact-container {
+  height: 70vh;
+  background: #29adb2;
+  /* width: auto; */
+  /* background: linear-gradient( #9ade7b, white); */
+}
+
+.sign-up-head {
+  text-align: center;
+  padding: 70px 0px 70px 0px;
+
+  /* align-items: center;
+  justify-content: center; */
+}
+.sign-up-head p {
+  text-align: center;
+  width: 95vmax;
+}
+
+.sign-up-head h1 {
+  font-size: 2.5rem;
+}
+
+.left-right {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 4vmin;
+  left: 11vmax;
+  /* border: 2px solid blue; */
+  height: 69vh;
+  width: 80%;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.left-side {
+  padding: 0vh 3vh 0vh 3vh;
+  background: #29adb2;
+  width: 24%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 20px;
+  height: 66vh;
+}
+
+.right-side {
+  /* padding-left: 5%; */
+  width: 50%;
+  /* border: 2px solid blue; */
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.sign-up-middle {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 44vh;
+  width: 37vw;
+  flex-direction: column;
+  align-items: center;
+  gap: 23px;
+  padding: 40px 0px 0px 0px;
+  /* border: 2px solid blue; */
+}
+
+.left-side p {
+  font-size: 1.2vw;
+  width: auto;
+  font-weight: 200;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contact-details {
+  margin-top: 30px;
+}
+
+.contact-details p {
+  font-size: 1.3vw;
+}
+.sign-up-middle input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  /* border-bottom: 1px solid black;s */
+  gap: 20px;
+  padding-bottom: 7px;
+}
+
+.sign-up-middle input[type="text"] {
+  font-size: 1.4vw;
+}
+.right-side button {
+  padding: 13px 72px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background: #29adb2;
+  font-size: 14px;
+  font-weight: 700;
+  transition-duration: 2ms;
+  transition-delay: 0ms;
+}
+
+.right-side button:hover{
+  color: black;
+  /* background: #092635; */
+
+}
+
+/* footer side of webisite */
+footer {
+  background: #092635;
+}
+.footer-container {
+  margin-top: 56vh;
+  height: 36vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6vw;
+  color: #f8f4ec;
+}
+.footer-left-side {
+  display: flex;
+  gap: 80px;
+  padding: 2px ;
+  /* align-items: center; */
+  justify-content: center;
+  list-style: none;
+  width: 80%;
+}
+
+.footer-left-side h1{
+  font-size: 20px;
+}
+
+.footer-left-side li{
+  list-style: none;
+}
+
+.first ul {
+  padding: 0px 0px 3px 3px;}
